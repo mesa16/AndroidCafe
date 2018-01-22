@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragmentL"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="com.example.toshiba_l15w.androidcafe.FragmentDetail"
+        android:layout_weight="2"
+        tools:layout="@layout/fragment_list"/>
+
+    <fragment
+        android:id="@+id/fragmentD"
+        android:name="com.example.toshiba_l15w.androidcafe.FragmentDetail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@layout/fragment_detail"/>
+
+</LinearLayout>
